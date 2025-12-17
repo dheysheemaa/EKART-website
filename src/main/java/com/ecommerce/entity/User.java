@@ -1,11 +1,12 @@
 package com.ecommerce.entity;
 
-import org.springframework.cglib.core.internal.Local;
+import java.time.LocalDateTime;
+
+import org.springframework.cglib.core.Local;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Access;
-import java.time.LocalDateTime;
 import jakarta.persistence.Column;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
